@@ -1,0 +1,12 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+}
+
+.disable{
+    background: grey;
+    border: 1px solid grey;
+    &:hover{
+        cursor: not-allowed;
+    }
+}

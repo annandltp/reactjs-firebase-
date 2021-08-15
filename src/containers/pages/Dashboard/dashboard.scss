@@ -1,0 +1,7 @@
+.card-content {
+    transition:  all ease 0.30s;
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-2px)
+    }
+}
